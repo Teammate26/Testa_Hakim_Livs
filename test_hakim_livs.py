@@ -9,7 +9,7 @@ admin_username = os.getenv("ADMIN_USERNAME")
 admin_password = os.getenv("ADMIN_PASSWORD")
 
 
-def test_admin_add_product(page: Page):
+def test_admin_login(page: Page):
     page.goto("https://webshop-2025-fe-g1-one.vercel.app/", wait_until="networkidle")
 
     expect(page.get_by_text("Alla produkter")).to_be_visible()
