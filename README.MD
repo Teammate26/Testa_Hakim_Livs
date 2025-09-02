@@ -10,6 +10,9 @@ Create a .env file and enter the credentials, then install it
 ```
 ADMIN_USERNAME=
 ADMIN_PASSWORD=
+USER1_USERNAME=
+USER1_FIRSTNAME=
+USER1_PASSWORD=
 ```
 Install Playwright if new PC
 ```
