@@ -19,3 +19,5 @@ def test_admin_login(page: Page):
     page.fill("input[placeholder='Password']", admin_password)
     page.click("button:has-text('Logga in')")
     page.wait_for_load_state("networkidle")
+
+
