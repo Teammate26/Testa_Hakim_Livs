@@ -13,3 +13,7 @@ ADMIN_PASSWORD=
 
 pip install python-dotenv
 ```
+Install Playwright if new PC
+```
+playwright install
+```
